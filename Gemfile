@@ -9,6 +9,9 @@ gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# Add bootsrap-sass
+gem 'bootstrap-sass', '~> 3.4.1'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -76,6 +79,7 @@ group :test do
   gem "minitest-reporters"
   gem "guard"
   gem "guard-minitest"
+  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 group :production do
