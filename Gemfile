@@ -79,7 +79,7 @@ group :test do
   gem "minitest-reporters"
   gem "guard"
   gem "guard-minitest"
-  gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+  gem 'wdm', '>= 0.1.0'
 end
 
 group :production do
